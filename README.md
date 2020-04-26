@@ -41,6 +41,8 @@ You can use this project with `npx`
 npx create-rc MyComponentName
 ```
 
+![Create React Component](https://user-images.githubusercontent.com/3269950/80316751-eb149580-87d5-11ea-8577-cb8eec63170d.gif)
+
 By default, the files are created using `.ts` as extension.
 
 You can change this, passing a third argument:
