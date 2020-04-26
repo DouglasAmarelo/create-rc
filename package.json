@@ -1,6 +1,6 @@
 {
   "name": "create-rc",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Create React Component is a simple script to create React components based on templates.",
   "main": "index.js",
   "bin": "./index.js",
