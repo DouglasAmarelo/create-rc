@@ -10,16 +10,17 @@
 	</a>
 </p>
 
-
+<br />
 ## 📝 About this project
 This project is a simple script to create React components based on templates.
 The templates base structure is:
 
-ComponentName
-  ├── ComponentName.tsx
-  ├── ComponentName.style.ts
-  └── index.ts
+ComponentName <br />
+  ├── ComponentName.tsx <br />
+  ├── ComponentName.style.ts<br />
+  └── index.ts<br />
 
+<br />
 ## 👨‍💻 How to use
 
 You can use this project with `npx`
@@ -35,7 +36,7 @@ You can change this, passing a third argument:
 npx create-rc MyComponentName js
 ```
 
-
+<br />
 ## Author
 
 👤 **DouglasAmarelo**
@@ -43,11 +44,13 @@ npx create-rc MyComponentName js
 * Twitter: [@DouglasAmarelo](https://twitter.com/DouglasAmarelo)
 * Github: [@DouglasAmarelo](https://github.com/DouglasAmarelo)
 
+<br />
 ## 🤝 Contributing
 
 Contributions, report errors and new ideias, are always welcome!<br />
 Please, visit the [issues page](https://github.com/DouglasAmarelo/joke-norris/issues).
 
+<br />
 ## Show your support
 
 Give a ⭐️ if this project helped you!
