@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 
 const fs = require('fs');
+const path = require('path');
 
 const [, , ...userInputArguments] = process.argv;
 
@@ -15,17 +16,18 @@ const createComponentFile = (fileName, fileContent) =>
 const replaceTemplateFileData = (fileData) =>
   fileData.replace(/@FILE_NAME@/gim, componentName);
 
-const errorMessage = (error) =>
-  console.error('Houston, we have a problem:', error);
-
 const createFileFromTemplate = (templateFile, outputFile) => {
-  fs.readFile(`./templates/${templateFile}`, 'utf8', (error, fileData) => {
-    error && errorMessage({ createFileFromTemplate: error });
+  fs.readFile(
+    path.resolve(__dirname, 'templates', templateFile),
+    'utf8',
+    (error, fileData) => {
+      error && console.error('Houston, we have a problem:', error);
 
-    const newFileData = replaceTemplateFileData(fileData);
+      const newFileData = replaceTemplateFileData(fileData);
 
-    createComponentFile(outputFile, newFileData);
-  });
+      createComponentFile(outputFile, newFileData);
+    }
+  );
 };
 
 const start = () => {
@@ -38,20 +40,30 @@ const start = () => {
 
   try {
     createComponentDirectory();
+
     createFileFromTemplate(
       'Component.tsx',
       `${componentName}.${fileExtension}x`
     );
+
     createFileFromTemplate(
       'Component.style.ts',
       `${componentName}.${fileExtension}`
     );
+
     createFileFromTemplate('index.ts', `index.${fileExtension}`);
 
     console.log(`Finished! The <${componentName} /> was created.`);
   } catch (error) {
-    errorMessage({ start: error });
+    console.error('Houston, we have a problem:', error);
   }
 };
 
-start();
+fs.exists(componentName, (exists) => {
+  if (exists) {
+    console.error('This component already exists.');
+    return;
+  }
+
+  start();
+});

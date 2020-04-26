@@ -1,5 +1,4 @@
 ______
-
 <h1 align="center">Welcome to Create React Component 👋</h1>
 
 <p align="center">
@@ -17,19 +16,18 @@ ______
 <p align="center">
 	<img alt="NPM Downloads" src="https://nodei.co/npm/create-rc.png" />
 <p>
-
-_____
+______
 
 <h2>📝 About this project</h2>
 This project is a simple script to create React components based on templates.
 The templates base structure is:
 
+```
 	ComponentName
 		├── ComponentName.tsx
 		├── ComponentName.style.ts
 		└── index.ts
-
-
+```
 
 <h2>👨‍💻 How to use</h2>
 
