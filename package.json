@@ -13,6 +13,13 @@
     "React Component",
     "React Component Generator"
   ],
-  "author": "",
-  "license": "ISC"
+  "author": "@DouglasAmarelo",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DouglasAmarelo/create-rc"
+  },
+  "bugs": {
+    "url": "https://github.com/DouglasAmarelo/create-rc/issues"
+  }
 }

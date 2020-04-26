@@ -1,3 +1,5 @@
+<br />
+
 <h1 align="center">Welcome to Create React Component 👋</h1>
 
 <p align="center">
@@ -11,17 +13,18 @@
 </p>
 
 <br />
-## 📝 About this project
+<h2>📝 About this project</h2>
 This project is a simple script to create React components based on templates.
 The templates base structure is:
 
-ComponentName <br />
-  ├── ComponentName.tsx <br />
-  ├── ComponentName.style.ts<br />
-  └── index.ts<br />
+	ComponentName
+		├── ComponentName.tsx
+		├── ComponentName.style.ts
+		└── index.ts
+
 
 <br />
-## 👨‍💻 How to use
+<h2>👨‍💻 How to use</h2>
 
 You can use this project with `npx`
 
@@ -37,21 +40,19 @@ npx create-rc MyComponentName js
 ```
 
 <br />
-## Author
+<h2>👤 Author</h2>
 
-👤 **DouglasAmarelo**
-
+**DouglasAmarelo**
 * Twitter: [@DouglasAmarelo](https://twitter.com/DouglasAmarelo)
 * Github: [@DouglasAmarelo](https://github.com/DouglasAmarelo)
 
 <br />
-## 🤝 Contributing
+<h2>🤝 Contributing</h2>
 
 Contributions, report errors and new ideias, are always welcome!<br />
 Please, visit the [issues page](https://github.com/DouglasAmarelo/joke-norris/issues).
 
 <br />
-## Show your support
+<h2>Show your support</h2>
 
 Give a ⭐️ if this project helped you!
-
