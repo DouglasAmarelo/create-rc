@@ -1,0 +1,18 @@
+{
+  "name": "create-rc",
+  "version": "1.0.0",
+  "description": "Create React Component is a simple script to create React components based on templates.",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "TypeScript",
+    "React Component",
+    "React Component Generator"
+  ],
+  "author": "",
+  "license": "ISC"
+}
