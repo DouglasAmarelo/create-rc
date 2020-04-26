@@ -1,4 +1,3 @@
-
 <h1 align="center">Welcome to Create React Component 👋</h1>
 
 <p align="center">
