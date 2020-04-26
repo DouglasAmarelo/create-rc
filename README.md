@@ -1,3 +1,5 @@
+______
+
 <h1 align="center">Welcome to Create React Component 👋</h1>
 
 <p align="center">
@@ -8,9 +10,16 @@
 	<a href="https://github.com/DouglasAmarelo?tab=followers" target="_blank">
 		<img alt="GitHub followers" src="https://img.shields.io/github/followers/douglasamarelo?label=Follow%20me&style=social" />
 	</a>
+	&nbsp; &nbsp;
+	<img alt="NPM Downloads" src="https://img.shields.io/npm/dt/react-rc.svg" />
 </p>
 
-<br />
+<p align="center">
+	<img alt="NPM Downloads" src="https://nodei.co/npm/create-rc.png" />
+<p>
+
+_____
+
 <h2>📝 About this project</h2>
 This project is a simple script to create React components based on templates.
 The templates base structure is:
@@ -21,7 +30,7 @@ The templates base structure is:
 		└── index.ts
 
 
-<br />
+
 <h2>👨‍💻 How to use</h2>
 
 You can use this project with `npx`
@@ -37,20 +46,20 @@ You can change this, passing a third argument:
 npx create-rc MyComponentName js
 ```
 
-<br />
+
 <h2>👤 Author</h2>
 
 **DouglasAmarelo**
 * Twitter: [@DouglasAmarelo](https://twitter.com/DouglasAmarelo)
 * Github: [@DouglasAmarelo](https://github.com/DouglasAmarelo)
 
-<br />
+
 <h2>🤝 Contributing</h2>
 
 Contributions, report errors and new ideias, are always welcome!<br />
 Please, visit the [issues page](https://github.com/DouglasAmarelo/joke-norris/issues).
 
-<br />
+
 <h2>Show your support</h2>
 
 Give a ⭐️ if this project helped you!
