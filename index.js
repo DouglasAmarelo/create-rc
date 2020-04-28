@@ -16,7 +16,7 @@ const filesToCreate = [
   },
   {
     templateFile: 'Component.style.ts',
-    outputFileName: `${componentName}.${fileExtension}`,
+    outputFileName: `${componentName}.style.${fileExtension}`,
   },
   {
     templateFile: 'index.ts',

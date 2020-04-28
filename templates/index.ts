@@ -1,1 +1,1 @@
-export { default } from './@FILE_NAME@';
+export { default as @FILE_NAME@ } from './@FILE_NAME@';
